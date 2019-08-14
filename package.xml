@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>minorderqty</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/MIT">MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Set minimum total quantities for orders per customer group.</summary>
+    <description>By default Magento lets us set the minimum quantity allowed in the shopping cart for individual items but this extension lets you set a minimum quantity for the whole order.&#xD;
+&#xD;
+This is specially useful if you have, for example, a "Wholesale" customer group and want the minimum number of items in the order for this group to be 12 no matter how many of each individual items the order has.</description>
+    <notes>Initial release</notes>
+    <authors><author><name>Javier Villanueva</name><user>javiervd</user><email>javiervd@gmail.com</email></author></authors>
+    <date>2015-10-04</date>
+    <time>13:17:08</time>
+    <contents><target name="magecommunity"><dir name="Jvs"><dir name="MinTotalQty"><dir name="Helper"><file name="Data.php" hash="cb6ecd90ba3d9ce51bd2de32ced57b31"/></dir><dir name="Model"><file name="Observer.php" hash="580a21556c016797f9b84f9e24c2cef6"/></dir><dir name="etc"><file name="config.xml" hash="2d7a18319bd72b3632e0d920feee231f"/><file name="system.xml" hash="429d4dae5e66a18802f0041676b4a841"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Jvs_MinTotalQty.xml" hash="7f3a3bd895248cadd5ee778d8da4eb92"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.14</max></php></required></dependencies>
+</package>
