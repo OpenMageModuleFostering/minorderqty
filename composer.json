@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/minorderqty",
+    "name": "OpenMageModuleFostering\/minorderqty",
     "type": "magento-module",
     "license": "MIT",
     "homepage": "",
     "description": "Set minimum total quantities for orders per customer group.",
     "authors": [
-    {
-        "name": "Javier Villanueva",
-        "email": "javiervd@gmail.com"
-    }
-],
+        {
+            "name": "Javier Villanueva",
+            "email": "javiervd@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
